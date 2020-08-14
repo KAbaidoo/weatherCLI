@@ -1,0 +1,24 @@
+{
+  "name": "weathercli",
+  "version": "1.0.0",
+  "description": "\"A command line program for checking weather of cities.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAbaidoo/weatherCLI.git"
+  },
+  "author": "\"kelvin Abaidoo\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAbaidoo/weatherCLI/issues"
+  },
+  "homepage": "https://github.com/KAbaidoo/weatherCLI#readme",
+  "dependencies": {
+    "command": "0.0.5",
+    "commander": "^6.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}

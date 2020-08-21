@@ -13,7 +13,7 @@ program
   .action((city) => current(city));
 
 program
-  .command("current <city>")
+  .command("forecast <city>")
   .alias("f")
   .description("Get weather forcast for specified city")
   .action((city) => forcast(city));
